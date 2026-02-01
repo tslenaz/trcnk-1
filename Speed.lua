@@ -1,7 +1,7 @@
 -- 核心配置：可自定义初始速度、速度步长、快捷键
 local CONFIG = {
-    INIT_SPEED = 25,       -- 初始移动速度（默认25，Roblox默认约16）
-    SPEED_STEP = 5,        -- 每次增减的速度值
+    INIT_SPEED = 16,       -- 初始移动速度（默认25，Roblox默认约16）
+    SPEED_STEP = 1,        -- 每次增减的速度值
     HOTKEY_PLUS = Enum.KeyCode.Equals,    -- 加速快捷键（=键）
     HOTKEY_MINUS = Enum.KeyCode.Minus,    -- 减速快捷键（-键）
     HOTKEY_RESET = Enum.KeyCode.R,        -- 重置速度快捷键（R键）
