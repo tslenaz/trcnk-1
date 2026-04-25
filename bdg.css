@@ -1,0 +1,27 @@
+/* 全局蓝绿渐变背景 - 独立CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #0066ff, #0099ff, #00cc88, #00dd66);
+  background-size: 400% 400%;
+  animation: gradientAuto 12s ease infinite;
+}
+
+@keyframes gradientAuto {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
